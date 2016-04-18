@@ -5,9 +5,9 @@ script:
  - sleep 3
  # - bundle exec rake build
  
-notifications:
-  email:
-  recipients:
-   - carladrago@gmail.com
-  on_success: always
+# notifications:
+#   email:
+#   recipients:
+#    - carladrago@gmail.com
+#   on_success: always
  
