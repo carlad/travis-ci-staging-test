@@ -2,7 +2,8 @@ language: ruby
 sudo: false
 
 script: 
- - sleep 3
+ # - sleep 3
+ - bundle exec rake build
  
 notifications:
   email:
