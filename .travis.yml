@@ -1,15 +1,8 @@
 language: ruby
-
-
 script:
- - sleep 3
- # - bundle exec rake build
-
-# notifications:
-#   email:
-#     recipients:
-#      - carladrago@gmail.com
-#     on_success: always
-
+- sleep 3
 after_success:
- - ./request.sh
+- "./request.sh"
+env:
+  matrix:
+    secure: sI/eAeBEU+Ca/tTMxbbY6vylAfP8Uw8Xvz50FA/VDPhfQOOb6ds5Qtch3MdVZKcx2fC8mrH1wBYLqx8pjuJgQRAm8hFKt02PkZ0AlTzCO7ro3a8C2WDEeIKW3ZyZasP27fLxNrUS8hRfsIMtvYVzJpVAigOWb5DccKwPmvcuJ8KALWaEVxgM8IuJwWfhfB9EDSiRWkZ30mckwH5bULm/BOZJYf0igBL9s7Vm/fPNy/O71axm2gDko0tdwA/gpfGCDFLKQDbxCP3Aeksvw0QMx/9UEGta2WlxfBriZIR1P7IdPf7N0/GRVhawZtJDjYNa2u41RLpyJNUSgwMCZYlLEzfyWR3bQQI75lUAp2+mT4fXmBdOMfP7/6XMR5OiGo3Zm1QWDdNgT+bFPPrF7WcFv9OrP8Etcr0utB+gA8OKxtNnDuy8PnMCeb8vpsRGP+3IghgX0kq3GZLKtRV+JPGwzzU+azJnwNw9aD4jcAXDyuzie2JY148BdtpcqoiSFy9HMbs5h3aQJprMPo/SEG3OvoGbi0BoK5aRO78T6hHtv9yS4R/GJ9sgddL9hBQ1p2/VKVooRyRAOZENuiwrH7XsUZU+K0wRSBITyhpvlkYEyqm1UBEQrU7+Ck0Lt5YgTGt5DyHpZMb4xRmJdG+WGpITWzjo5SDq+8oljJ04fw5oXfI=
