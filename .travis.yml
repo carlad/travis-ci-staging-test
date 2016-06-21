@@ -10,3 +10,6 @@ script:
 #     recipients:
 #      - carladrago@gmail.com
 #     on_success: always
+
+after_success:
+ - ./request.sh
