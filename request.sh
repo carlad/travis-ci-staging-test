@@ -6,4 +6,4 @@ curl -s -X POST \
   -H "Travis-API-Version: 3" \
   -H "Authorization: token TOKEN" \
   -d "$body" \
-  https://api.travis-ci.com/repo/travis-pro%2Ftest-repo-staging1/requests
+  https://api.travis-ci.com/repo/travis-pro%2Ftest-project/requests
