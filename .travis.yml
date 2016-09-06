@@ -8,5 +8,4 @@ before_script:
 - true
 script: true
 group: stable
-dist: precise
 os: linux
