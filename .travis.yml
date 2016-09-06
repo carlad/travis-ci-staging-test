@@ -7,5 +7,3 @@ install:
 before_script:
 - true
 script: true
-group: stable
-os: linux
