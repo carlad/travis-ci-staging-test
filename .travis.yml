@@ -1,8 +1,4 @@
 language: ruby
-sudo: required
-dist: trusty
-rvm:
-- jruby-21mode
 
 script:
 - sleep 3
