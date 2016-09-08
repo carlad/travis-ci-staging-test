@@ -1,5 +1,8 @@
 language: ruby
+sudo: required
+dist: trusty
 rvm:
-  - 2.3.0
+  - jruby-19mode
+
 script:
 - sleep 3
