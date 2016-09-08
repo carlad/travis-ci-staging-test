@@ -3,7 +3,6 @@ sudo: required
 dist: trusty
 rvm:
 - jruby-21mode
-- rbx-3.57
 
 script:
 - sleep 3
