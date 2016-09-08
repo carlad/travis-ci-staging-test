@@ -2,7 +2,7 @@ language: ruby
 sudo: required
 dist: trusty
 rvm:
-  - jruby
+- jruby-21mode
 
 script:
 - sleep 3
