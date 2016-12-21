@@ -1,6 +1,5 @@
 sudo: required
-dist: trusty
-language: node_js
+language: ruby
 
 script:
 - sleep 3
